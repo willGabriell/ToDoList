@@ -86,7 +86,9 @@ select:hover {
     background-color: #DDD;
 }
 
-.btn-action {
+.edit-btn {
+    background-color: orange;
+    margin-right: 5px;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -97,12 +99,15 @@ select:hover {
     cursor: pointer;
 }
 
-.btn-action:nth-child(1) {
-    background-color: orange;
-    margin-right: 5px;
-}
-
-.btn-action:nth-child(2) {
+.dlt-btn{
     background-color: #E9190F;
     margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
