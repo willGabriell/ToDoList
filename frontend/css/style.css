@@ -54,6 +54,7 @@ button[type="submit"] {
 }
 
 table {
+    width: 100%;
     border-collapse: collapse;
 }
 
